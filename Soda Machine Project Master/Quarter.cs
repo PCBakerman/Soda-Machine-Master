@@ -4,13 +4,12 @@ using System.Text;
 
 namespace Soda_Machine_Project_Master
 {
-    class Quarter
+    class Quarter : Coin
     {
-        //member variables
-        public double quarter = .25;
-
-
-        //constructor
-
+        public Quarter()
+        {
+            CoinValue = .25;
+            Name = "Quarter";
+        }
     }
 }

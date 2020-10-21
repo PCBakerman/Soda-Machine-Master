@@ -6,15 +6,28 @@ namespace Soda_Machine_Project_Master
 {
     abstract class Can
     {
+        public double Cost
+        {
+            get
+            {
+                return cost;
+            }
+            set
+            {
+                if (value > 0)
+                {
+                    cost = value;
+                }
+                else
+                {
+                    throw new ArgumentOutOfRangeException(
+                 $"{nameof(value)} must be larger than 0.");
+                }
+            }
+        }
         private double cost;
-
-
-        public double Cost;
-
-
-        //member variables
-        double newCost = 0.75;
-        public string  = "Root Beer"
-        //constructor    
+        public string Name
+        { get; set; }
+        public string countCan; 
     }
 }

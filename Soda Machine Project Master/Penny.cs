@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Soda_Machine_Project_Master
 {
-    class Penny
+    class Penny : Coin
     {
-        //member variables 
-        public double penny = .01;
-
-
-        //constructor
+        public Penny()
+        {
+            CoinValue = .01;
+            Name = "Penny";
+        }
     }
 }

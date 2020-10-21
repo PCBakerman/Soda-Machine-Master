@@ -6,5 +6,9 @@ namespace Soda_Machine_Project_Master
 {
     class Wallet
     {
+
+
+
     }
+
 }

@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Soda_Machine_Project_Master
 {
-    class Root_Beer
+    class Root_Beer : Can
     {
-        //member variables
-        public string rootBeer = "Root Beer";
-
-
-        //constructor
+        public Root_Beer()
+        {
+            Name = "Root Beer";
+            Cost = .60;
+        }
     }
 }

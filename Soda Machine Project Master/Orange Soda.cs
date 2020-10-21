@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Soda_Machine_Project_Master
 {
-    class Orange_Soda
+    class Orange_Soda : Can
     {
-        //member variables
-
-
-
-        //constructor
+        public Orange_Soda()
+        {
+            Name = "Orange_Soda";
+            Cost = .06;
+        }
     }
 }

@@ -4,14 +4,12 @@ using System.Text;
 
 namespace Soda_Machine_Project_Master
 {
-    class Dime
+    class Dime : Coin
     {
-        //member variables
-
-
-
-
-
-        //constructor
+        public Dime()
+        {
+            CoinValue = .1;
+            Name = "Dime";
+        }
     }
 }

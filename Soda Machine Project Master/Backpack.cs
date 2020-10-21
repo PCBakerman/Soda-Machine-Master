@@ -6,11 +6,8 @@ namespace Soda_Machine_Project_Master
 {
     class BackPack
     {
-        //member variables
-
-
-
-
-        //constructor
-    }
+        public List<Can> Can = new List<Can>();
+        public int Inventory { get { return Can.Count; } }
+    } 
 }
+       

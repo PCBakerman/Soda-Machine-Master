@@ -4,13 +4,12 @@ using System.Text;
 
 namespace Soda_Machine_Project_Master
 {
-    class Nickle
+    class Nickle : Coin
     {
-        //memeber variables
-        public double nickle = .05;
-
-
-
-        //constructor
+        public Nickle()
+        {
+            CoinValue = .05;
+            Name = "Nickle";
+        }
     }
 }
